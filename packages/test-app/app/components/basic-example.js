@@ -1,6 +1,5 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
-import { action } from '@ember/object';
 
 export default class BasicExampleComponent extends Component {
   @tracked content = {
@@ -13,10 +12,5 @@ export default class BasicExampleComponent extends Component {
 
   get jsonContent() {
     return JSON.stringify(this.content);
-  }
-
-  @action
-  postDidChange(content) {
-    this.content = content;
   }
 }

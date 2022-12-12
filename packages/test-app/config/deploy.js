@@ -7,7 +7,7 @@
 
 module.exports = function (deployTarget) {
   let ENV = {
-    repo: 'git@github.com:crunchybananas/cb-ember-mobiledoc-editor.git',
+    repo: 'git@github.com:crunchybananas/cb-ember-mobiledoc-dom-renderer.git',
     branch: 'gh-pages',
     build: {},
     // include other plugin configuration that applies to all deploy targets here

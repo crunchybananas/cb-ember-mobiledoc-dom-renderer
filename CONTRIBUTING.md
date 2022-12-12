@@ -3,7 +3,7 @@
 ## Installation
 
 * `git clone <repository-url>`
-* `cd cb-ember-mobiledoc-editor`
+* `cd cb-ember-mobiledoc-dom-renderer`
 * `yarn install`
 
 ## Linting

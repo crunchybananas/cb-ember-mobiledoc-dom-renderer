@@ -44,7 +44,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/cb-ember-mobiledoc-editor';
+    ENV.rootURL = '/cb-ember-mobiledoc-dom-renderer';
 
     // here you can enable a production-specific feature
   }

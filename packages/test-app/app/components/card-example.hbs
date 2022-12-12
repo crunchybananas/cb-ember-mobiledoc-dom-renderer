@@ -1,21 +1,15 @@
 <div class="container">
   <div>
     <h4>Card Example</h4>
-    <Mobiledoc::Editor
+    <Mobiledoc::DomRenderer
       @content={{this.content}}
-      @postDidChange={{this.postDidChange}}
-      @editorDidLoad={{this.editorDidLoad}}
+      @atoms={{this.atoms}}
+      @cards={{this.cards}}
     >
-      <:toolbar>
-        <div class="toolbar">
-          <button class="insert-card" type="button">Insert Card</button>
-          <button class="insert-atom" type="button">Insert Atom</button>
-        </div>
-      </:toolbar>
-    </Mobiledoc::Editor>
+    </Mobiledoc::DomRenderer>
   </div>
   <div>
-    <h4>Toolbar JSON Content</h4>
+    <h4>Card JSON Content</h4>
     <div class="json-content">
       {{this.jsonContent}}
     </div>

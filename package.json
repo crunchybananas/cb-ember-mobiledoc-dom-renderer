@@ -3,22 +3,22 @@
     "packages/*"
   ],
   "private": true,
-  "repository": "https://github.com/crunchybananas/cb-ember-mobiledoc-editor",
+  "repository": "https://github.com/crunchybananas/cb-ember-mobiledoc-dom-renderer.git",
   "license": "MIT",
   "author": "crunchybananas",
   "scripts": {
-    "prepare": "yarn workspace cb-ember-mobiledoc-editor run prepare",
+    "prepare": "yarn workspace cb-ember-mobiledoc-dom-renderer run prepare",
     "start": "npm-run-all --parallel start:*",
-    "start:addon": "yarn workspace cb-ember-mobiledoc-editor run start",
+    "start:addon": "yarn workspace cb-ember-mobiledoc-dom-renderer run start",
     "start:test-app": "yarn workspace test-app run start",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
-    "lint:addon": "yarn workspace cb-ember-mobiledoc-editor run lint",
+    "lint:addon": "yarn workspace cb-ember-mobiledoc-dom-renderer run lint",
     "lint:test-app": "yarn workspace test-app run lint",
     "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:fix:*",
-    "lint:fix:addon": "yarn workspace cb-ember-mobiledoc-editor run lint:fix",
+    "lint:fix:addon": "yarn workspace cb-ember-mobiledoc-dom-renderer run lint:fix",
     "lint:fix:test-app": "yarn workspace test-app run lint:fix",
     "test": "npm-run-all --aggregate-output --continue-on-error --parallel test:*",
-    "test:addon": "yarn workspace cb-ember-mobiledoc-editor run test",
+    "test:addon": "yarn workspace cb-ember-mobiledoc-dom-renderer run test",
     "test:test-app": "yarn workspace test-app run test"
   },
   "devDependencies": {
